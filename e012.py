@@ -19,6 +19,10 @@
 ### seems take forever to run
 
 import math
+import time
+
+tic = time.perf_counter()
+
 x = 1
 c = 0
 while True:
@@ -34,8 +38,11 @@ while True:
         print(x)
         break
     x += c + 1
-    
-### runtime: 30s
-### Question: when doing int(math.ceil(math.sqrt(x))) why
+
+toc = time.perf_counter()
+elap = toc - tic
+print(elap)
+
+### runtime: 27+ s
+### Question: why when doing int(math.ceil(math.sqrt(x)))
 ### should also do ( i += 2 )
-### 
