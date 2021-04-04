@@ -18,6 +18,6 @@ while True:
         break
     x += c + 1
 
-###print(x) ### Test if it really Breaks :)
+### print(x) ### Test if it really Breaks :)
 ### yeah it breaks
 ### it won't do (x += c + 1)
