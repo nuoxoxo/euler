@@ -46,7 +46,9 @@ public class Gg
         long n = 13195;
         drei(n); 
         
+        /* notice the "l" at the end indicating "long" */
         n  =  600851475143l;
+
         drei(n);
     }
 }
