@@ -2,32 +2,6 @@ public class Demo
 {
     public static boolean isPalin(int n)
     {
-        /*
-         *
-        int temp, remainder, nreversed;
-        
-        temp = n;
-        
-        //remainder = 0;
-        nreversed = 0;
-
-        while (temp > 0);
-        {
-            remainder = temp % 10;
-            nreversed = 10 * nreversed + remainder;
-            temp /= 10;
-        }
-
-        if (nreversed == n)
-            return true;
-
-         *
-         * palin-check works in c, don't know why not working here
-         * luckily there's an another way to do it 
-         * which is also easiter (belo)
-         *
-         */
-
         String s = Integer.toString(n);
 
         int i = 0;
