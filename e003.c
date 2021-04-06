@@ -8,9 +8,7 @@ int e3(long num)
     int i = floor(sqrt(num / 2));
     int j = 0;
     if (i % 2 == 0)
-    {
         i -= 1;
-    }
 
     int mxp = 0;
 
