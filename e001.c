@@ -7,9 +7,7 @@ int main()
     while (i < 1000)
     {
         if (i % 3 == 0 || i % 5 == 0)
-        {
             somme += i; 
-        }
         i++;
     }
     printf("%d\n", somme);
