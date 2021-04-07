@@ -1,4 +1,13 @@
-
+*
+!/**/
+!*.*
+.DS_Store
+*.out
+*.cmo
+*.cmi
+*.cmx
+*.o
+*.c~
+*.txt
 *.swp
 *.out
-*.o
