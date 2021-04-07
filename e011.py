@@ -1,9 +1,8 @@
 a = []
-with open('e11.txt', 'r') as f:
+with open('11.txt', 'r') as f:
     for x in f.readlines():
         a.append(x.rstrip('\n').split(' '))
-# for x in a:
-#     print(x)
+
 ###### -->> produce a list of strings
 
 ## greatestproduct -->>
