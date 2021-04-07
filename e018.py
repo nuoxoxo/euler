@@ -1,8 +1,7 @@
 a = []
-with open('e18.txt')as f:
+with open('18.txt')as f:
     for x in f.readlines():
         a.append(x.rstrip('\n').split(' '))
-
 
 for i in range(len(a) - 1, 0, -1):
 
